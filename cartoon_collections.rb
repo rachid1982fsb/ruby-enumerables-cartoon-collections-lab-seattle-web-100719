@@ -17,7 +17,7 @@ end
 
 def long_planeteer_calls(planeteer) # code an argument here
   # Your code here
-  planeteer.all{|call| call.length >4 }
+  planeteer.all?{|call| call.length >4 }
 end
 
 def find_the_cheese# code an argument here
