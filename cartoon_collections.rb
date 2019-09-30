@@ -1,9 +1,15 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(names) # code an argument here
   # Your code here
+  i = 0
+  names.map do |name| 
+    i += 1
+    puts "#{i} #{name}"
+  end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(summons)# code an argument here
   # Your code here
+  summons.map {|summon| "#{summon.capitalize}!"}
 end
 
 def long_planeteer_calls# code an argument here
